@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the Calories Burnt"
+        android:textSize="20dp"
+        android:textColor="#ffb114"
+        android:textAlignment="center"
+        android:layout_marginTop="100dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textAlignment="center"
+        android:id="@+id/exercised_calories"
+        android:layout_marginTop="25dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="9dp"
+        android:text="Date"
+        android:textColor="#ffb114"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="dd/mm/yyyy"
+            android:textAlignment="center"
+            android:id="@+id/date_ex"
+            android:textColorHint="#ffb114"/>
+
+        <ImageView
+            android:layout_width="57dp"
+            android:layout_height="47dp"
+            android:src="@drawable/calendar"
+            android:id="@+id/ex_cal"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit2"
+        android:layout_width="118dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#ffb114"
+        android:textSize="17dp"
+        android:text="submit" />
+
+</LinearLayout>

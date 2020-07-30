@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="29" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_whatshot_black_24dp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_whatshot_black_24dp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.project2.basic_activity"
+            android:label="@string/title_activity_basic_activity"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name="com.example.project2.MainActivity" />
+        <activity android:name="com.example.project2.add_expense" />
+        <activity android:name="com.example.project2.edit_profile" />
+        <activity android:name="com.example.project2.profile" />
+        <activity android:name="com.example.project2.about" />
+        <activity android:name="com.example.project2.exercise" />
+        <activity android:name="com.example.project2.show_expense" />
+        <activity android:name="com.example.project2.register" />
+        <activity android:name="com.example.project2.firstpage" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

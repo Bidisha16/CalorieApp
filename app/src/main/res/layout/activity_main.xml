@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/download">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:id="@+id/user"
+        android:layout_marginTop="230dp"
+        android:backgroundTint="#EFF0F5"
+        android:textColorHint="#F7F3F3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textAlignment="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:id="@+id/pass"
+        android:inputType="textWebPassword"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#EFF0F5"
+        android:textColorHint="#F7F3F3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forget"
+        android:text="Forgot Password?"
+        android:textColor="#ff1c29"
+        android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="112dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FBC02D"
+        android:text="login" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/new_user"
+        android:text="New User?"
+        android:textSize="20dp"
+        android:textColor="#1830ff"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="160dp"/>
+
+</LinearLayout>
